@@ -1,9 +1,0 @@
-def fact(n):
-	if n == 0:
-		return 1
-	else:
-		return n*fact(n-1)
-
-#from refact import fact
-num_fact = fact(5)
-print(num_fact)
